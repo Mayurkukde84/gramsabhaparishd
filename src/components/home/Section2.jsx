@@ -1,14 +1,19 @@
 import { Button } from "@material-tailwind/react";
-import React from "react";
+import React, { useEffect } from "react";
 
 const Section2 = () => {
   return (
     <section className="container mx-auto mt-5 p-5">
-      <p className="text-center">WELCOME TO NGO</p>
-      <p className="text-5xl font-semibold text-pink text-center mt-2">
-        We are here to help everyone in need
-      </p>
-      <p className="mt-10 text-2xl text-left text-blue-gray-500">
+      <div data-aos="zoom-in" data-aos-once="true" >
+        <p className="text-center">WELCOME TO NGO</p>
+      </div>
+      <div data-aos="zoom-in" data-aos-once="true">
+        <p className="text-5xl font-semibold text-pink text-center mt-2">
+          We are here to help everyone in need
+        </p>
+      </div>
+<div data-aos="zoom-in" data-aos-once="true" >
+<p className="mt-10 text-2xl text-left text-blue-gray-500">
         On her way she met a copy. The copy warned the Little Blind Text, that
         where it came from it would have been rewritten a thousand times and
         everything that was left from its origin would be the word "and" and the
@@ -18,8 +23,10 @@ const Section2 = () => {
         drunk with Longe and Parole and dragged her into their agency, where
         they abused her for their.
       </p>
+</div>
+     
 
-      <div className="flex flex-col md:flex-row mt-10 md:space-x-4">
+      <div className="flex flex-col md:flex-row mt-10 md:space-x-4" data-aos="zoom-in" data-aos-once="true">
         <div className="flex mb-4 md:mb-0 md:w-1/2">
           <img
             className="h-20"
@@ -31,7 +38,7 @@ const Section2 = () => {
             <p className="text-2xl">Volunteer</p>
           </div>
         </div>
-        <div className="flex md:w-1/2">
+        <div className="flex ">
           <img
             className="h-20"
             alt="icon"
@@ -51,4 +58,3 @@ const Section2 = () => {
 };
 
 export default Section2;
-
